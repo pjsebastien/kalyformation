@@ -723,34 +723,6 @@ input[type='checkbox'] {
     text-align: center;
 }
 
-.header .countdown {
-    margin-bottom: 0.5rem;
-    color: #fff;
-    text-align: center;
-}
-
-.header .countdown #clock .counter-number {
-    display: inline-block;
-    width: 6.5rem;
-    height: 6.5rem;
-    margin-right: 0.5rem;
-    margin-bottom: 1.25rem;
-    margin-left: 0.5rem;
-    padding-top: 2rem;
-    border: 0.125rem solid #fff;
-    border-radius: 50%;
-    font-weight: 400;
-    font-size: 2.25rem;
-    line-height: 1.25rem;
-    text-align: center;
-}
-
-.header .countdown #clock .counter-number .timer-text {
-    font-size: 0.75rem;
-    line-height: 1rem;
-    text-align: center;
-}
-
 .header h1 {
     margin-bottom: 0.75rem;
     color: #eee;

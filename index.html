@@ -619,13 +619,14 @@ Pratique de la gestion et de la comptabilité : paie, bilan, analyse de résulta
                     <!-- end of col -->
                     <div class="col-lg-6">
                         <!-- Contact Form -->
-                        <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <form id="contactForm" data-toggle="validator" data-focus="false" name="contact" netlify>
                             <div class="form-group">
                                 <input
                                     type="text"
                                     class="form-control-input"
                                     id="cname"
                                     required
+                                    name="name"
                                 />
                                 <label class="label-control" for="cname">Nom</label>
                                 <div class="help-block with-errors"></div>
@@ -635,6 +636,7 @@ Pratique de la gestion et de la comptabilité : paie, bilan, analyse de résulta
                                     type="email"
                                     class="form-control-input"
                                     id="cemail"
+                                    name="email"
                                     required
                                 />
                                 <label class="label-control" for="cemail">Email</label>
@@ -644,6 +646,7 @@ Pratique de la gestion et de la comptabilité : paie, bilan, analyse de résulta
                                 <textarea
                                     class="form-control-textarea"
                                     id="cmessage"
+                                    name="message"
                                     required
                                 ></textarea>
                                 <label class="label-control" for="cmessage"
