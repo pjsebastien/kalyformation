@@ -301,14 +301,14 @@ a:hover {
     }
 }
 
-.form-control-input:focus + .label-control,
+.form-control-input + .label-control,
 .form-control-input.notEmpty + .label-control,
-.form-control-textarea:focus + .label-control,
+.form-control-textarea + .label-control,
 .form-control-textarea.notEmpty + .label-control {
     top: 0.125rem;
     opacity: 1;
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .form-control-input,
