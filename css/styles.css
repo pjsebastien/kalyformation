@@ -883,7 +883,7 @@ input[type='checkbox'] {
 }
 
 .cards .card {
-    max-width: 21rem;
+    max-width: 50rem;
     height: 355px;
     margin-right: auto;
     margin-bottom: 4rem;
@@ -892,6 +892,13 @@ input[type='checkbox'] {
     border: none;
     background-color: #fff;
     text-align: center;
+}
+
+.row-card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .cards .card-image {
@@ -1496,9 +1503,10 @@ a:hover.back-to-top {
 
     .cards .card {
         display: inline-block;
-        width: 17.75rem;
         max-width: 100%;
         vertical-align: top;
+        width: 40%;
+        justify-content: space-between;
     }
 
     .cards .card:nth-child(3n + 2) {
@@ -1647,7 +1655,8 @@ a:hover.back-to-top {
 
     /* Takeaways */
     .cards .card {
-        width: 21rem;
+        width: 40%;
+        justify-content: space-between;
     }
 
     .cards .card:nth-child(3n + 2) {
